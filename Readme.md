@@ -1,4 +1,4 @@
-CONTENTS OF THIS FILE
+Contents of this File
 ---------------------
    
  * Introduction
@@ -38,13 +38,18 @@ Troubleshooting
 ----------
  * Promise rejection exceptions are caused by malformed Async operations. Check the code for API calls or AsyncStorage calls
  
+ * There are scope issues with using the data returned from Async storage. We found a workaround, but the cause of the issue is unknown. So, if you encounter an undefined value from a defined key in an defined JSON object, despite being able to output the object itself, we can't help you. It might have something to do with object bindings, maybe.
+ 
+Bugs and Issues
+---------------
+
+ 
 FAQ
 ---
  * While it is technically cross-platform, the use of platform-specific components prevents full functionality (MapView and iOS timepicker especially)
 
- * This app was tested on the iPhone 6 emulator. Smaller screens caused rendering errors. Larger screens appear to be unaffected.
+ * This app was tested on the iPhone 6 emulator. Smaller screens caused rendering errors (missing buttons, bad formatting). Larger screens appear to be unaffected.
  
-
 MAINTAINERS
 -----------
 
