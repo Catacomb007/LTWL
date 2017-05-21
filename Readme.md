@@ -1,4 +1,4 @@
-⧸⧸CONTENTS⧸⧸#CONTENTS⧸⧸ OF THIS FILE
+CONTENTS OF THIS FILE
 ---------------------
    
  * Introduction
@@ -11,14 +11,15 @@
  * Maintainers
  
  
-⧸⧸Introduction
+Introduction
 ----------
 	This "Elletourage iOS app" is a proof-of-concept and technology demonstrator.
 	It is built using React-Native, 
 	
 Requirements
 ----------
-Node modules
+	Node modules:
+	
 	React
 	React-Native
 	React-Native-Checkbox
@@ -26,40 +27,25 @@ Node modules
 	React-Native-Deprecated-Custom-Components
 	React-Native-ALertiOS
 	
-Recommended modules
-----------
+	
 Installation
 ----------
-(See online tutorial for environment setup)
-"facebook.github.io/react-native/docs/getting-started.html"
+	(See online tutorial for environment setup)
+	"facebook.github.io/react-native/docs/getting-started.html"
 
-Configuration
-----------
+
 Troubleshooting
 ----------
+ * Promise rejection exceptions are caused by malformed Async operations. Check the code for API calls or AsyncStorage calls
+ 
 FAQ
 ---
- * While it is technically cross-platform, the use of platform-specific components prevents
-full functionality (MapView and iOS timepicker especially)
+ * While it is technically cross-platform, the use of platform-specific components prevents full functionality (MapView and iOS timepicker especially)
 
- * This app was tested on the iPhone 6 emulator. Smaller screens caused rendering errors.
- Larger screens appear to be unaffected.
+ * This app was tested on the iPhone 6 emulator. Smaller screens caused rendering errors. Larger screens appear to be unaffected.
  
-MAINTAINERS⧸⧸##Introduction
-----------
-#Requirements
-----------
-#Recommended modules
-----------
-#Installation
-----------
-#Configuration
-----------
-#Troubleshooting
-----------
-#FAQ
----
-#MAINTAINERS⧸⧸
+
+MAINTAINERS
 -----------
 
 Current maintainers:
